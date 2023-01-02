@@ -1,0 +1,53 @@
+*{ /* El asterisco actua como comodin y se le aplica las propiedades a todo del documento*/
+ 
+color: black;
+  
+}
+
+
+
+section {
+background-color: white;
+  width: 300px;
+  border: 5px solid blue;
+  padding: 3px;
+  margin: 3px;
+}
+
+section h1 {
+  color: orange;
+  font-family: 'Rubik Bubbles', cursive;;
+}
+/*Podemos definir el font que queremos usar en el proyecto exacto
+con font family*/
+
+
+/** Este es un comentario en un archivo de css */
+
+h1 {
+  border-left: 5px red dotted;
+  border-right: 5px red dotted;
+  border-top: 5px blue dotted;
+  border-bottom: 5px blue dotted;
+  padding: 5px 5px 5px 5px; /** El padding aleja el contenido del border*/
+/** Podes marcar todos en uno en sentido de la abuja del reloj*/
+  margin-top: 40px;
+  margin-bottom: 30px; /** Indica e ubica el texto fuera de los pixeles alrededor como una caja trasparente*/
+  margin-left: 50px;
+  margin-right: 90px;
+  font-weight: bold;
+  color: darkgrey;
+  text-align: left;
+}
+
+#solo{
+  font-size: 20px; /*Selector de ID con #*/
+  color: blue;
+}
+
+.esteesmiclase{ /*Esto lo definis para poder compartir propiedades con ciertos atributos*/
+  font-weight: bold;
+  color: red;
+  border: 5px red dotted
+;
+}

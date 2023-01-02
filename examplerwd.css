@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+p {
+    width: 25%;
+  float: left;
+}
+
+.main{
+    border: 1px red solid;
+    padding: 15px;
+    width: 15%;
+    float: left;
+}
+
+body {
+    background-color: red;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
